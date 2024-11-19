@@ -5,8 +5,9 @@
     <link rel="icon" type="image/svg+xml" href="/goit-js-hw-09/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-DApyv85Q.css">
+    <script type="module" crossorigin src="/goit-js-hw-09/02-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-CAeOPW-A.css">
   </head>
   <body>
     <a href="index.html"
@@ -37,7 +38,21 @@
             style="fill: #ffdd00"
             d="M486.134,307.863c0,55.858-45.447,101.306-101.306,101.306h-61.575 c-6.919,0-12.571,5.432-12.92,12.274c0.168-11.886,5.044-22.62,12.868-30.432c7.954-7.954,18.947-12.881,31.091-12.881h30.535 c18.857,0,36.575-7.411,49.896-20.861c13.321-13.451,20.551-31.234,20.37-50.103c-0.375-38.347-32.462-69.555-71.546-69.555H63.801 l-8.601-9.635L36.098,206.57c0,0,348.032,0,348.73,0C440.686,206.57,486.134,252.004,486.134,307.863z"
           ></path>
-        </g></svg
-    ></a>
+        </g>
+      </svg>
+    </a>
+
+    <form class="feedback-form" autocomplete="off">
+      <label>
+        Email
+        <input class="input" type="email" name="email" autofocus />
+      </label>
+      <label>
+        Message
+        <textarea class="input text" name="message" rows="8"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+
   </body>
 </html>
